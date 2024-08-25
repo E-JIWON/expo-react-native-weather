@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NomadWeather",
-    "slug": "NomadWeather",
+    "name": "expo-react-native-weather",
+    "slug": "expo-react-native-weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
