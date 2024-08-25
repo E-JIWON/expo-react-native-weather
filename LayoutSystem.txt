@@ -1,0 +1,18 @@
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, flexDirection: "row" }}> 
+      <View style={{ flex: 3, backgroundColor: "red" }}></View>
+      <View style={{ flex: 1, backgroundColor: "green" }}></View>
+      <View style={{ flex: 1, backgroundColor: "orange" }}></View>
+    </View>
+  );
+}
+
+// container가 항상 flex container
+// flex-direcition 기본 값이 collum임
+// 웹은 기본이 row임 !
+
+//calc(안되네) flex :5 는 부모의 5배래
